@@ -10,10 +10,10 @@ class _TextViewState extends State<TextView> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding: EdgeInsets.symmetric(horizontal: 100, vertical: 200),
+        padding: EdgeInsets.symmetric(horizontal: 100, vertical: 100),
         child: Text(
           "ငါလိုးမကြက်ရိုး လီးဘဲ မင်းမေငါလိုး",
-          style: TextStyle(fontSize: 50, fontFamily: 'Pyidaungsu'),
+          style: TextStyle(fontSize: 30, fontFamily: 'Pyidaungsu'),
         ),
       ),
     );

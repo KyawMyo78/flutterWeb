@@ -13,12 +13,12 @@ class _ViewState extends State<View> {
       body: Column(
         children: <Widget>[
           Container(
-            height: 350,
+            height: 250,
           ),
           Row(
             children: <Widget>[
               Container(
-                width: 500,
+                width: 100,
               ),
               RaisedButton(
                 child: Text("Click me!"),

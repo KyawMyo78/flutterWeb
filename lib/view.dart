@@ -10,28 +10,14 @@ class _ViewState extends State<View> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: <Widget>[
-          Container(
-            height: 250,
-          ),
-          Row(
-            children: <Widget>[
-              Container(
-                width: 100,
-              ),
-              RaisedButton(
-                child: Text("Click me!"),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => TextView()),
-                  );
-                },
-              ),
-            ],
-          ),
-        ],
+      body: RaisedButton(
+        child: Text("Click me!"),
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => TextView()),
+          );
+        },
       ),
     );
   }
